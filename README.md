@@ -71,25 +71,25 @@ Follow these steps to set up and run the Pantry Tracker application locally.
 
 1. **Clone the repository**:
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/tanwardivya/pantry-tracker.git
    cd pantry-tracker
-   \`\`\`
+   ```
 
 2. **Install dependencies**:
 
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Set up Firebase**:
 
    - Go to the [Firebase Console](https://console.firebase.google.com/).
    - Create a new project (or use an existing one).
    - Enable Firestore in your Firebase project.
-   - Create a \`firebaseConfig.js\` file in the \`src\` directory with your Firebase configuration:
+   - Create a `firebaseConfig.js` file in the `src` directory with your Firebase configuration:
 
-     \`\`\`javascript
+     ```javascript
      // src/firebaseConfig.js
      import { initializeApp } from "firebase/app";
      import { getFirestore } from "firebase/firestore";
@@ -107,15 +107,15 @@ Follow these steps to set up and run the Pantry Tracker application locally.
      const db = getFirestore(app);
 
      export { db };
-     \`\`\`
+     ```
 
 4. **Run the application**:
 
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
-   The application should now be running on \`http://localhost:3000\`.
+   The application should now be running on `http://localhost:3000`.
 
 ## Usage
 
