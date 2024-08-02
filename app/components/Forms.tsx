@@ -43,7 +43,7 @@ interface FormData {
 }
 interface FormValues {
   item: string;
-  date: Dayjs | null;
+  date: Dayjs;
 }
 
 const validationSchema = Yup.object({
@@ -176,7 +176,7 @@ const Forms: React.FC = () => {
   return (
     <Box sx={{ width: "80%", margin: "0 auto" }}>
       <Formik
-        initialValues={{ item: "", date: null }}
+        initialValues={{ item: "", date: dayjs() }}
         validationSchema={validationSchema}
         validateOnChange={false}
         validateOnBlur={false}
