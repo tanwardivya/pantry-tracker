@@ -38,7 +38,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # Pantry Tracker
 
-Pantry Tracker is a React-based web application that helps you keep track of your pantry items, their expiration dates, and the number of days until they expire. The application uses Firebase Firestore for data storage and retrieval, and Material-UI for the user interface components.
+Pantry Tracker is a NextJs-based web application that helps you keep track of your pantry items, their expiration dates, and the number of days until they expire. The application uses Firebase Firestore for data storage and retrieval, and Material-UI and Typescript for the user interface components.
 
 ## Features
 
@@ -57,6 +57,7 @@ Pantry Tracker is a React-based web application that helps you keep track of you
 - **Formik**: A library for building and managing forms in React.
 - **Yup**: A JavaScript schema builder for value parsing and validation.
 - **Dayjs**: A lightweight JavaScript library for date manipulation.
+- **Typescript**: A tool for better tooling at any scale.
 
 ## Getting Started
 
